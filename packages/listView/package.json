@@ -1,5 +1,5 @@
 {
-  "name": "kendo-ui-react-fixed-events-jquery-listview",
+  "name": "kendo-ui-react-jquery-fixed-events-listview",
   "version": "1.1.0",
   "description": "The Kendo UI for jQuery ListView widget wrapped as a React component. This fork fixes events not being unbound.",
   "main": "./dist/index.js",
