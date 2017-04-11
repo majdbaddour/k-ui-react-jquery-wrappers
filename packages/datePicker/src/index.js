@@ -51,6 +51,12 @@ const KendoDatePicker = React.createClass({
 
 	//not called on inital render, but whenever parent state changes this is called
 	componentWillReceiveProps: function(nextProps){
+		if(nextProps.unbindEvents){
+			// if(deepDiff(nextProps.unbindEvents,this.props.unbindEvents)){
+				this.unbindEventsToKendoWidget(nextProps.unbindEvents);
+			// }
+		}
+
 		//always update the widget with nextProp changes if avaliable
 		if(nextProps.events){
 			this.bindEventsToKendoWidget(nextProps.events);
@@ -66,12 +72,6 @@ const KendoDatePicker = React.createClass({
 		if(nextProps.methods){
 			if(deepDiff(nextProps.methods,this.props.methods)){
 				this.callKendoWidgetMethods(nextProps.methods);
-			}
-		}
-
-		if(nextProps.unbindEvents){
-			if(deepDiff(nextProps.unbindEvents,this.props.unbindEvents)){
-				this.unbindEventsToKendoWidget(nextProps.unbindEvents);
 			}
 		}
 
