@@ -1,7 +1,7 @@
 {
-  "name": "kendo-ui-react-jquery-dropdownlist",
-  "version": "1.0.27",
-  "description": "The Kendo UI for jQuery DropDownList widget wrapped as a React component.",
+  "name": "kendo-ui-react-jquery-fixed-events-dropdownlist",
+  "version": "1.1.0",
+  "description": "The Kendo UI for jQuery DropDownList widget wrapped as a React component. This fork fixes events not being unbound.",
   "main": "./dist/index.js",
   "scripts": {
     "build": "babel src --presets babel-preset-es2015 --out-dir dist",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/codylindley/k-ui-react-jquery-wrappers/tree/master/packages/dropDownList"
+    "url": "https://github.com/majdbaddour/k-ui-react-jquery-wrappers/tree/master/packages/dropDownList"
   },
   "keywords": [
     "Kendo",
