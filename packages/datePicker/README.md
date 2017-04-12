@@ -5,7 +5,7 @@ The Kendo UI for jQuery DatePicker widget wrapped as a React component.
 ## Install
 
 ```bash
-npm i kendo-ui-react-jquery-datepicker
+npm i kendo-ui-react-jquery-fixed-events-datepicker
 ```
 
 ## Usage Example

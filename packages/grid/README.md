@@ -41,7 +41,7 @@ machine bower.telerik.com
 ## Install
 
 ```bash
-npm i kendo-ui-react-jquery-grid
+npm i kendo-ui-react-jquery-fixed-events-grid
 ```
 
 ## Usage Example
