@@ -41,7 +41,7 @@ machine bower.telerik.com
 ## Install
 
 ```bash
-npm i kendo-ui-react-jquery-scheduler
+npm i kendo-ui-react-jquery-fixed-events-scheduler
 ```
 
 ## Usage Example
